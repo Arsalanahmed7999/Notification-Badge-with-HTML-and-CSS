@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    border: 3px solid white;
+}
+
+.badge{
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 149, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pop{
+    position: absolute;
+    background-color: red;
+    right: -13px;
+    top: -13px;
+    padding: 2px 6px;
+    border-radius: 50px;
+    border: 0.5px solid white;
+}
